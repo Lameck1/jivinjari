@@ -1,18 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 :root {
-  --color-primary: #f42;
-  --color-secondary: #fd3;
-  --color-tertiary: #0cc;
-  --color-light-primary: rgba(255, 68, 34, 0.06);
-  --color-dark-grey-1: #131313;
-  --color-dark-grey-2: #333;
-  --color-medium-grey: #555;
-  --color-light-grey: #aaa;
-  --color-light-pink: #fffaf8;
-  --font-family-primary: "Open Sans", sans-serif;
-  --font-family-secondary: "Poppins", sans-serif;
-  --font-family-tertiary: "Rajdhani", sans-serif;
+  --color-indianred: #d3564a;
+  --color-white: #fff;
+  --color-cornflowerblue: #519bd7;
+  --color-lightgray: #d2cecf;
+  --color-salmon: #e27f65;
+  --color-darkgray: #98a4a5;
+  --color-black: #000;
+  --color-darkslategray: #444;
+  --color-sienna: #9b3e34;
+  --color-steelblue: #457eb4;
+  --color-sandybrown: #e6ac5b;
+  --color-whitesmoke: #eee;
+  --font-family-primary: 'Fredoka One', cursive;
+  --font-family-secondary: 'Lexend Deca', sans-serif;
+  --font-family-tertiary: 'Source Sans Pro', sans-serif;
 }
