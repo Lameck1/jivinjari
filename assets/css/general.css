@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 :root {
   --color-indianred: #d3564a;
@@ -14,8 +14,14 @@
   --color-sienna: #9b3e34;
   --color-steelblue: #457eb4;
   --color-sandybrown: #e6ac5b;
-  --color-whitesmoke: #eee;
-  --font-family-primary: 'Fredoka One', cursive;
-  --font-family-secondary: 'Lexend Deca', sans-serif;
-  --font-family-tertiary: 'Source Sans Pro', sans-serif;
+  --color-whitesmoke: rgba(238, 238, 238, 0.7);
+  --font-family-primary: "Fredoka One", cursive;
+  --font-family-secondary: "Lexend Deca", sans-serif;
+  --font-family-tertiary: "Source Sans Pro", sans-serif;
+}
+
+h3 {
+  color: var(--color-white);
+  font-weight: 600;
+  text-transform: uppercase;
 }
