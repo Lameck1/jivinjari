@@ -1,0 +1,37 @@
+.step h3 {
+  color: var(--color-black);
+  font-size: 1.9vw;
+  padding: 0.5vw;
+}
+
+.usage header h3 {
+  color: var(--color-sienna);
+  text-align: center;
+  font-size: 2vw;
+  padding: 5vw;
+}
+
+.step p {
+  text-align: center;
+  font-size: 2vw;
+  padding: 0 9vw;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vw;
+}
+
+.step-icon {
+  font-size: 4vh;
+  padding: 0.5vw;
+}
+
+@media only screen and (min-width: 1024px) {
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
