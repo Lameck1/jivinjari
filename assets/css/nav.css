@@ -6,6 +6,8 @@
   flex-direction: column;
   height: 15vh;
   background: var(--color-indianred);
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -51,9 +53,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    background-color: lightblue;
-  }
+ 
 }
 
 @media only screen and (min-width: 1024px) {
