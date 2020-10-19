@@ -1,0 +1,84 @@
+.search-bar {
+  display: flex;
+  background: linear-gradient(var(--color-black), transparent, var(--color-black)), url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.search-form {
+  background: var(--color-whitesmoke);
+  border-radius: 8px;
+  margin: 2vw;
+  padding: 4vw;
+  width: 100%;
+}
+
+.search-form label {
+  color: var(--color-darkslategray);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.search-form form {
+  width: 100%;
+}
+
+.input {
+  border: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 1.2vw 0;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.btn-form {
+  background-color: var(--color-indianred);
+  border: 0;
+  border-radius: 2px;
+  color: var(--color-white);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.2vw 0;
+  width: 100%;
+}
+
+.btn-instruction {
+  background-color: var(--color-lightgray);
+  border: 0;
+  border-radius: 2px;
+  color: var(--color-darkslategray);
+  font-size: 2vw;
+  font-weight: 700;
+  margin-top: 10vh;
+  padding: 1vw;
+  width: 15vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-form form {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-form {
+    width: 10vw;
+  }
+
+  .container {
+    width: 65%;
+  }
+}
