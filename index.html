@@ -37,26 +37,29 @@
         </div>
     </nav>
     <main>
-
         <section class="search-bar">
-            <header>
-                <h3>jivinjari... a one stop directory for tourism destinations in kenya.</h3>
-            </header>
-            <div class="search-form">
-                <label class="label">search by keyword:</label>
-                <form action="./results.html">                    
-                    <input type="text" id="keyword" name="keyword"><br><br>
-                    <button type="submit">search</button>
-                </form>
+            <div class="container">
+                <header>
+                    <h3>jivinjari: a one stop directory for tourism destinations in kenya.</h3>
+                </header>
+                <div class="search-form">
+                    <label class="label">search by keyword:</label>
+                    <form action="./results.html">                    
+                        <input class="input" type="text" id="keyword" name="keyword">
+                        <button class="btn-form" type="submit">search</button>
+                    </form>
+                </div>
+    
+                <button onclick="window.location.href='#instructions';" class="btn-instruction" type="button">How it works</button>
             </div>
+            
         </section>
 
-        <section class="usage">
+        <section class="usage" id="instructions">
             <header>
                 <h3>to "jivinjari", follow these simple steps</h3>
             </header>
-            <div class="steps">.
-
+            <div class="steps">
                 <article class="step">
                     <div class="step-icon">
                         <i class="fas fa-search-location"></i>
