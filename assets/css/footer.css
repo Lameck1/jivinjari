@@ -1,13 +1,14 @@
 footer {
   background-color: var(--color-black);
   font-family: var(--font-family-secondary);
-  padding-top: 2vw;
+  padding: 2vw 0;
 }
 
 /* footer-top */
 .footer-links {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-top: 2px solid var(--color-darkergray);
   border-bottom: 2px solid var(--color-darkergray);
   margin-bottom: 2vw;
@@ -17,17 +18,32 @@ footer {
 .f-links-container {
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 50px;
 }
 
-.f-links {
-  text-align: center;
+.f-links-left {
+  text-align: left;
+}
+
+.f-links-right {
+  text-align: right;
+}
+
+.f-links-left,
+.f-links-right {
   padding: 8px 0;
 }
 
-.f-links li {
+.f-links-left li {
   display: inline;
-  padding: 2%;
+  padding: 4% 0;
+  margin-right: 8%;
+}
+
+.f-links-right li {
+  display: inline;
+  padding: 4% 0;
+  margin-left: 8%;
 }
 
 .f-logo {
@@ -38,85 +54,14 @@ footer {
 }
 
 /* footer-middle */
-
 .footer-middle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: var(--color-darkgray);
-  font-size: 14px;
+  display: none;
 }
 
-.footer-middle h3 {
-  padding: 2.2vw;
-}
-
-.footer-middle div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  padding: 0 20px;
-}
-
-.subscribe form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.subscribe form input {
-  border: 1px solid var(--color-darkgray);
-  padding: 0.6vh;
-  margin-bottom: 5px;
-}
-
-.subscribe form button {
-  color: var(--color-white);
-  border: 0;
-  background-color: var(--color-darkgray);
-  padding: 0.6vh;
-}
-
-.contact span {
-  color: var(--color-sienna);
-}
-
-.contact p,
-.about p {
-  text-align: center;
-}
-
-/* footer-bottom */
+/* foote-bottom */
 
 .footer-bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--color-darkergray);
-  padding: 1vw;
-  margin-top: 2vw;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: center;
-  color: var(--color-darkgray);
-  width: 100%;
-  padding: 0.5vw;
-}
-
-.footer-social i {
-  padding: 0 4%;
-}
-
-.footer-copyright {
-  color: var(--color-darkgray);
-  font-size: 14px;
-  text-align: center;
-  padding: 1vw;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -141,12 +86,8 @@ footer {
   }
 
   .footer-top {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
-  }
-
-  .footer-middle {
-    flex-direction: row;
   }
 
   .f-logo {
@@ -173,14 +114,10 @@ footer {
 
 @media only screen and (min-width: 1024px) {
   footer {
-    padding-top: 4vw;
+    padding: 4vw 0 0;
   }
 
-  .f-links-left {
-    padding-left: 0;
-    margin-left: 0;
-  }
-
+  /* footer-top */
   .f-logo {
     width: 100px;
     height: 100px;
@@ -191,7 +128,84 @@ footer {
     font-size: 4vw;
   }
 
+  /* footer-middle */
+
+  .footer-middle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--color-darkgray);
+    font-size: 14px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .footer-middle h3 {
+    padding: 2.2vw;
+  }
+
+  .footer-middle div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+
+  .subscribe form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .subscribe form input {
+    border: 1px solid var(--color-darkgray);
+    padding: 0.6vh;
+  }
+
+  .subscribe form button {
+    color: var(--color-white);
+    border: 0;
+    background-color: var(--color-darkgray);
+    padding: 0.6vh;
+  }
+
+  .contact span {
+    color: var(--color-sienna);
+  }
+
+  .contact p,
+  .about p {
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  /* footer-bottom */
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-darkergray);
+    padding: 1vw;
+    margin-top: 2vw;
+  }
+
   .footer-social {
-    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-darkgray);
+    width: 30%;
+    padding: 0.5vw;
+  }
+
+  .footer-social i {
+    padding: 0 4%;
+  }
+
+  .footer-copyright {
+    color: var(--color-darkgray);
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
   }
 }
