@@ -1,12 +1,13 @@
 footer {
   background-color: var(--color-black);
   font-family: var(--font-family-secondary);
-  padding: 2vw 0;
+  padding: 2em 0 10px;
 }
 
 /* footer-top */
 .footer-links {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border-top: 2px solid var(--color-darkergray);
@@ -18,39 +19,32 @@ footer {
 .f-links-container {
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: 50px;
-}
-
-.f-links-left {
-  text-align: left;
-}
-
-.f-links-right {
-  text-align: right;
+  font-size: 14px;
+  width: 100%;
 }
 
 .f-links-left,
 .f-links-right {
   padding: 8px 0;
+  text-align: center;
 }
 
-.f-links-left li {
-  display: inline;
-  padding: 4% 0;
-  margin-right: 8%;
-}
-
+.f-links-left li,
 .f-links-right li {
   display: inline;
-  padding: 4% 0;
-  margin-left: 8%;
+  padding: 4%;
 }
 
 .f-logo {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-darkergray);
+  border-radius: 50%;
   color: var(--color-white);
   position: absolute;
-  right: 5px;
+  top: -3em;
 }
 
 /* footer-middle */
@@ -58,13 +52,32 @@ footer {
   display: none;
 }
 
-/* foote-bottom */
-
+/* footer-bottom */
 .footer-bottom {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
+  .f-links-left {
+    text-align: left;
+  }
+
+  .f-links-right {
+    text-align: right;
+  }
+
+  .f-links-left li {
+    display: inline;
+    padding: 4% 0;
+    margin-right: 8%;
+  }
+
+  .f-links-right li {
+    display: inline;
+    padding: 4% 0;
+    margin-left: 8%;
+  }
+
   .subscribe form {
     flex-direction: row;
   }
@@ -74,7 +87,7 @@ footer {
   }
 
   .footer-links {
-    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
@@ -91,15 +104,10 @@ footer {
   }
 
   .f-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-black);
-    border: 2px solid var(--color-darkergray);
-    border-radius: 50%;
     width: 60px;
     height: 60px;
     left: 45.5%;
+    top: auto;
   }
 
   .f-logo i {
