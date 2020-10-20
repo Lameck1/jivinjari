@@ -2,6 +2,7 @@
   display: flex;
   background: linear-gradient(var(--color-black), transparent, var(--color-black)), url(../images/banner.jpg) no-repeat;
   background-size: cover;
+  font-family: var(--font-family-tertiary);
   height: 85vh;
 }
 
