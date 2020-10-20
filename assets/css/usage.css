@@ -1,19 +1,19 @@
 .step h3 {
   color: var(--color-black);
-  font-size: 1.9vw;
+  font-size: 20px;
   padding: 0.5vw;
 }
 
 .usage header h3 {
   color: var(--color-sienna);
   text-align: center;
-  font-size: 2vw;
+  font-size: 20px;
   padding: 5vw;
 }
 
 .step p {
   text-align: center;
-  font-size: 2vw;
+  font-size: 18px;
   padding: 0 9vw;
 }
 
