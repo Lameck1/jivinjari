@@ -1,0 +1,116 @@
+.details {
+  font-family: var(--font-family-tertiary);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.details h1,
+h2 {
+  color: var(--color-sienna);
+  font-weight: bolder;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 20px 0 10px;
+}
+
+.image {
+  margin: 20px;
+}
+
+.image figure {
+  width: 100%;
+}
+
+.image figure img {
+  width: 100%;
+  height: 40vh;
+}
+
+.image figure figcaption {
+  font-weight: bolder;
+  padding: 2vh 0;
+  font-size: 16px;
+}
+
+.image button {
+  background-color: var(--color-steelblue);
+  border: 0;
+  padding: 6px 10px;
+  margin: 5px 0;
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.6vw;
+}
+
+th {
+  text-transform: uppercase;
+  color: var(--color-salmon);
+  font-weight: 700;
+}
+
+td,
+th {
+  border: 1px solid var(--color-salmon);
+  text-align: left;
+  padding: 1.2vw;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-salmon);
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+.contacts span {
+  margin-right: 10px;
+}
+
+.contacts i {
+  color: var(--color-steelblue);
+}
+
+iframe {
+  width: 100%;
+  border: 0;
+}
+
+.about-dest {
+  padding: 0 20px;
+}
+
+.about-dest p {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-dest p {
+    font-size: 20px;
+  }
+
+  .image figure figcaption {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .image {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .about-dest {
+    width: 80%;
+    margin: auto;
+  }
+}
