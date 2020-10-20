@@ -62,6 +62,7 @@ footer {
 
 .subscribe form {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -69,12 +70,14 @@ footer {
 .subscribe form input {
   border: 1px solid var(--color-darkgray);
   padding: 0.6vh;
+  margin-bottom: 5px;
 }
 
 .subscribe form button {
   color: var(--color-white);
   border: 0;
   background-color: var(--color-darkgray);
+  padding: 0.6vh;
 }
 
 .contact span {
@@ -117,6 +120,14 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .subscribe form {
+    flex-direction: row;
+  }
+
+  .subscribe form input {
+    margin-bottom: 0;
+  }
+
   .footer-links {
     display: flex;
     align-items: center;
