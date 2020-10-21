@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 :root {
   --color-indianred: #d3564a;
@@ -16,10 +14,30 @@
   --color-steelblue: #457eb4;
   --color-sandybrown: #e6ac5b;
   --color-whitesmoke: rgba(238, 238, 238, 0.7);
-  --font-family-primary: "Fredoka One", cursive;
-  --font-family-secondary: "Lexend Deca", sans-serif;
-  --font-family-tertiary: "Source Sans Pro", sans-serif;
+  --font-family-primary: "Lexend Deca", sans-serif;
 }
+
+/* responsive font-sizing */
+
+/* rem unit is relative to base font size set to html */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: 1.2rem;
+}
+
+footer {
+  font-size: 1rem;
+}
+
+.usage i {
+  font-size: 1.5rem;
+}
+
+/* general styling */
 
 h3 {
   color: var(--color-white);
@@ -30,8 +48,48 @@ h3 {
 a {
   color: var(--color-white);
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
   color: var(--color-cornflowerblue);
+}
+
+/* widths */
+
+.full-width {
+  width: 100%;
+}
+
+/* flex behaviour for small screens */
+.flex-mobile {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-fit {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* typography */
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* flex behaviour for larg screens */
+  .flex-large {
+    display: flex;
+  }
 }

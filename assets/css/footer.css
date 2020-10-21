@@ -6,9 +6,7 @@ footer {
 
 /* footer-top */
 .footer-links {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   border-top: 2px solid var(--color-darkergray);
   border-bottom: 2px solid var(--color-darkergray);
@@ -19,20 +17,12 @@ footer {
 .f-links-container {
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: 14px;
-  width: 100%;
-}
-
-.f-links-left,
-.f-links-right {
-  padding: 8px 0;
-  text-align: center;
 }
 
 .f-links-left li,
 .f-links-right li {
   display: inline;
-  padding: 4%;
+  padding: 1%;
 }
 
 .f-logo {
@@ -47,6 +37,10 @@ footer {
   top: -3em;
 }
 
+.f-logo i {
+  font-size: 2rem;
+}
+
 /* footer-middle */
 .footer-middle {
   display: none;
@@ -59,23 +53,21 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .f-links-left {
-    text-align: left;
+    justify-content: flex-start;
   }
 
   .f-links-right {
-    text-align: right;
+    justify-content: flex-end;
   }
 
   .f-links-left li {
     display: inline;
-    padding: 4% 0;
-    margin-right: 8%;
+    margin-right: 4%;
   }
 
   .f-links-right li {
     display: inline;
-    padding: 4% 0;
-    margin-left: 8%;
+    margin-left: 4%;
   }
 
   .subscribe form {
@@ -88,30 +80,28 @@ footer {
 
   .footer-links {
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .f-links-container {
-    width: 100%;
     padding: 0.5vw 0;
-    font-size: 1.2vw;
   }
 
   .footer-top {
-    width: 85%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
   .f-logo {
     width: 60px;
     height: 60px;
-    left: 45.5%;
+    left: 45%;
     top: auto;
   }
 
   .f-logo i {
-    font-size: 45px;
+    font-size: 3rem;
   }
 
   .footer-bottom {
@@ -125,15 +115,15 @@ footer {
     padding: 4vw 0 0;
   }
 
+  .footer-top {
+    max-width: 85%;
+  }
+
   /* footer-top */
   .f-logo {
     width: 100px;
     height: 100px;
     left: 45.5%;
-  }
-
-  .f-logo i {
-    font-size: 4vw;
   }
 
   /* footer-middle */
@@ -143,7 +133,6 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     color: var(--color-darkgray);
-    font-size: 14px;
     width: 85%;
     margin: 0 auto;
   }
@@ -212,7 +201,6 @@ footer {
 
   .footer-copyright {
     color: var(--color-darkgray);
-    font-size: 1vw;
     text-align: center;
     padding: 1vw;
   }

@@ -1,6 +1,5 @@
 .nav {
   display: flex;
-  font-family: var(--font-family-secondary);
   font-weight: 600;
   flex-direction: column;
   height: 15vh;
@@ -11,19 +10,12 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 50%;
 }
 
-.logo-icon {
-  font-size: 5vh;
-  padding: 0 1%;
-}
-
+.logo i,
 .logo span {
-  font-size: 5vh;
+  font-size: 2.5rem;
 }
 
 .menu {
@@ -31,45 +23,45 @@
 }
 
 .menu-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100%;
 }
 
 .menu-links li {
-  display: flex;
-  align-items: center;
-  padding: 0 3%;
-}
-
-.menu-icon {
-  font-size: 3vh;
+  padding: 0 4%;
 }
 
 .menu-links li span {
   display: none;
-  padding-left: 5px;
 }
 
 @media only screen and (min-width: 1024px) {
   .nav {
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    height: 10vh;
   }
 
   .logo {
-    padding: 10px 0 0 25px;
+    padding-left: 25px;
   }
 
   .menu {
-    align-self: center;
-    width: 45%;
+    justify-content: flex-end;
+    height: auto;
+  }
+
+  .menu-links {
+    justify-content: flex-end;
+  }
+
+  .menu-links li {
+    padding: 0 2%;
   }
 
   .menu-links li span {
     display: block;
-    font-size: 1.3vw;
+    padding-left: 0.3em;
     text-transform: uppercase;
   }
 }

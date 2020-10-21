@@ -9,12 +9,12 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
     <!-- stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Jivinjari</title>
 </head>
 
 <body>
     <nav class="nav">
-        <div class="logo">
+        <div class="logo flex-center">
             <a href="./index.html">
                 <i class="fa fa-paw logo-icon"></i>
             </a>
@@ -23,9 +23,9 @@
             </a>           
         </div>
 
-        <div class="menu">
-            <ul class="menu-links">
-                <li>
+        <div class="menu flex-large flex-fit">
+            <ul class="menu-links flex-center flex-fit">
+                <li class="flex-center">
                     <a href="./results.html">
                         <i class="fa fa-search menu-icon"></i>
                     </a>
@@ -33,7 +33,7 @@
                         <span>destinations</span>
                     </a>
                 </li>
-                <li>
+                <li class="flex-center">
                     <a href="#">
                         <i class="fa fa-user menu-icon"></i>
                     </a>
@@ -41,7 +41,7 @@
                         <span>about</span>
                     </a>
                 </li>
-                <li>
+                <li class="flex-center">
                     <a href="#">
                         <i class="fa fa-rss menu-icon"></i>
                     </a>
@@ -49,7 +49,7 @@
                         <span>blog</span>
                     </a>
                 </li>
-                <li>
+                <li class="flex-center">
                     <a href="#">
                         <i class="fa fa-bars menu-icon"></i>
                     </a>
@@ -61,18 +61,18 @@
         </div>
     </nav>
     <main>
-        <section class="search-bar">
-            <div class="container">
+        <section class="search-bar flex-mobile">
+            <div class="container flex-mobile">
                 <header>
-                    <h3>
+                    <h1 class="uppercase text-center">
                         jivinjari: a one stop directory for tourism destinations in kenya.
-                    </h3>
+                    </h1>
                 </header>
-                <div class="search-form">
+                <div class="search-form  full-width">
                     <label class="label">search by keyword:</label>
-                    <form action="./results.html">
-                        <input class="input" type="text" id="keyword" name="keyword" />
-                        <button class="btn-form" type="submit">search</button>
+                    <form action="./results.html" class=" full-width">
+                        <input class="input  full-width" type="text" id="keyword" name="keyword" />
+                        <button class="btn-form  full-width" type="submit">search</button>
                     </form>
                 </div>
 
@@ -187,9 +187,9 @@
     </main>
     <footer>
         <div class="footer-top">
-            <ul class="footer-links">
-                <li class="f-links-container">
-                    <ul class="f-links-left">
+            <ul class="footer-links flex-center">
+                <li class="f-links-container full-width flex-fit">
+                    <ul class="f-links-left flex-center">
                         <li><a href="#">home</a></li>
                         <li><a href="#">search</a></li>
                         <li><a href="#">about us</a></li>
@@ -197,8 +197,8 @@
                     </ul>
                 </li>
                 <li class="f-logo"><i class="fa fa-paw logo-icon"></i></li>
-                <li class="f-links-container">
-                    <ul class="f-links-right">
+                <li class="f-links-container full-width flex-fit">
+                    <ul class="f-links-right flex-center">
                         <li><a href="#">facebook</a></li>
                         <li><a href="#">twitter</a></li>
                         <li><a href="#">blog</a></li>

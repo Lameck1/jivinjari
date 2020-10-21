@@ -50,22 +50,25 @@ Better still, you can make your own booking with Jivinjari and just get ready fo
 * Clone this repo https://github.com/Lameck1/jivinjari
 * To get a local copy up and running follow these simple steps:
 
-Install dependencies:
+Run the following command in your commandline:
 
 ```
 npm install
 ```
 
-or 
+or just
 
 ```
-yarn install
+npm i
 ```
+
+This is important for configuration of linters, already defined in the project, to ensure clean and error free code.
 
 
 ### Prerequisites
 
-- Npm install or yarn install is required to make new commits.
+- Ensure you have git installed.
+- node.js should also be installed for linters to be set-up
 
 
 ## Contributing
