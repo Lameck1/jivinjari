@@ -1,0 +1,91 @@
+.filter {
+  background-color: var(--color-whitesmoke);
+  font-family: var(--font-family-secondary);
+  margin-top: 5vh;
+}
+
+.filter h4 {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+  padding: 20px;
+}
+
+.filter form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0 30px 20px;
+}
+
+.filter form label {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-right: 1em;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+fieldset input,
+fieldset select {
+  border: 1px solid var(--color-lightgray);
+  border-radius: 2px;
+  padding: 7px;
+}
+
+.buttons {
+  padding: 1.6vh 0;
+}
+
+.buttons button {
+  color: var(--color-white);
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+.buttons button:first-of-type {
+  background-color: var(--color-steelblue);
+}
+
+.buttons button:last-of-type {
+  background-color: var(--color-sandybrown);
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .filter h4 {
+    text-align: center;
+  }
+
+  .filter form {
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  fieldset {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+  }
+
+  .buttons button {
+    margin: 0 10px;
+  }
+}
