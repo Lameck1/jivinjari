@@ -42,7 +42,7 @@ Better still, you can make your own booking with Jivinjari and just get ready fo
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://lameck1.github.io/jivinjari/detail.html)
 
 
 ## Getting Started
