@@ -68,7 +68,7 @@ yarn install
 - Npm install or yarn install is required to make new commits.
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -82,7 +82,7 @@ Feel free to check the [issues page](https://github.com/Lameck1/jivinjari/issues
   - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lameck-odhiambo-642b7077/)
 
 
-## 📝 License
+## License
 
 This project is [MIT](https://github.com/Lameck1/jivinjari/blob/main/LICENSE) licensed.
 
