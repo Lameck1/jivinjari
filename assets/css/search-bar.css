@@ -41,8 +41,9 @@
 .input {
   border: 0;
   border-radius: 2px;
+  font-weight: 600;
   text-transform: uppercase;
-  padding: 1.2vw 0;
+  padding: 1.2vw 0 1.2vw 1.2vw;
   margin: 5px 0;
   width: 100%;
 }
