@@ -1,5 +1,4 @@
 .nav {
-  color: var(--color-white);
   display: flex;
   font-family: var(--font-family-secondary);
   font-weight: 600;
@@ -8,6 +7,7 @@
   background: var(--color-indianred);
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 
 .logo {
