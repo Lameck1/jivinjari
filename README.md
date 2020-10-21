@@ -89,8 +89,8 @@ This project is [MIT](https://github.com/Lameck1/jivinjari/blob/main/LICENSE) li
 ## Acknowledgements
 
 Credits go to the following who did the design of this project
-  - 👤 **Mathew Njuguna**: [](https://www.behance.net/mathewnjuguna)
-  - 👤 **Sam Achola**: [](https://www.behance.net/aweSam)
+  - 👤 [**Mathew Njuguna**:](https://www.behance.net/mathewnjuguna)
+  - 👤 [**Sam Achola**:](https://www.behance.net/aweSam)
 
 Other
   - Fontawesome
