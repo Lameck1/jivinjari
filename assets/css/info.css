@@ -1,7 +1,5 @@
 .info {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 1em 2.5em;
 }
 
@@ -26,9 +24,7 @@
 
 .info-detail {
   order: 2;
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .info-detail h5 {

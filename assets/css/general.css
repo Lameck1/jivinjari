@@ -61,13 +61,13 @@ a:hover {
   width: 100%;
 }
 
-/* flex behaviour for small screens */
-.flex-mobile {
+/* CLASS FOR ALL ELEMENTS THAT ARE DISPLAY FLEX */
+.display-flex {
   display: flex;
 }
 
+/* CLASS FOR ALL ELEMENTS UTILISING FLEX CENTER ALIGNMENT */
 .flex-center {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -77,19 +77,12 @@ a:hover {
   min-width: 0;
 }
 
-/* typography */
-
+/* CLASS FOR ALL ELEMENTS ALIGNING TEXT TO CENTER */
 .text-center {
   text-align: center;
 }
 
+/* CLASS FOR ALL ELEMENTS TRANSFORMING TEXT TO UPPERCASE */
 .uppercase {
   text-transform: uppercase;
-}
-
-@media only screen and (min-width: 1024px) {
-  /* flex behaviour for larg screens */
-  .flex-large {
-    display: flex;
-  }
 }

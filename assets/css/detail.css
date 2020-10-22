@@ -56,7 +56,6 @@ td {
 }
 
 .contacts {
-  display: flex;
   flex-wrap: wrap;
   padding: 8px 0;
 }

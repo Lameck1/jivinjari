@@ -48,27 +48,15 @@ Better still, you can make your own booking with Jivinjari and just get ready fo
 ## Getting Started
 
 * Clone this repo https://github.com/Lameck1/jivinjari
-* To get a local copy up and running follow these simple steps:
-
-Run the following command in your commandline:
-
-```
-npm install
-```
-
-or just
-
-```
-npm i
-```
-
-This is important for configuration of linters, already defined in the project, to ensure clean and error free code.
+* Navigate to jivinjari folder
+* Open project with your code editor
+* If you have a live server, use it to run the project
+* Else, just double click on the index.html to run the project
 
 
 ### Prerequisites
 
 - Ensure you have git installed.
-- node.js should also be installed for linters to be set-up
 
 
 ## Contributing

@@ -26,9 +26,6 @@ footer {
 }
 
 .f-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--color-black);
   border: 2px solid var(--color-darkergray);
   border-radius: 50%;
@@ -39,16 +36,6 @@ footer {
 
 .f-logo i {
   font-size: 2rem;
-}
-
-/* footer-middle */
-.footer-middle {
-  display: none;
-}
-
-/* footer-bottom */
-.footer-bottom {
-  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -110,6 +97,18 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1023px) {
+  /* footer-middle */
+  .footer-middle {
+    display: none;
+  }
+
+  /* footer-bottom */
+  .footer-bottom {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   footer {
     padding: 4vw 0 0;
@@ -129,7 +128,6 @@ footer {
   /* footer-middle */
 
   .footer-middle {
-    display: flex;
     align-items: flex-start;
     justify-content: space-between;
     color: var(--color-darkgray);
@@ -142,7 +140,6 @@ footer {
   }
 
   .footer-middle div {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -150,7 +147,6 @@ footer {
   }
 
   .subscribe form {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -180,16 +176,12 @@ footer {
   /* footer-bottom */
 
   .footer-bottom {
-    display: flex;
-    align-items: center;
     background-color: var(--color-darkergray);
     padding: 1vw;
     margin-top: 2vw;
   }
 
   .footer-social {
-    display: flex;
-    justify-content: center;
     color: var(--color-darkgray);
     width: 30%;
     padding: 0.5vw;
