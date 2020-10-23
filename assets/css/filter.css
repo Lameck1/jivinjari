@@ -1,0 +1,86 @@
+.filter {
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--color-whitesmoke);
+  font-family: var(--font-family-secondary);
+  margin-top: 5vh;
+}
+
+.filter h1 {
+  font-weight: 600;
+  text-align: left;
+  padding: 20px;
+}
+
+.filter form {
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0 30px 20px;
+}
+
+.filter form label {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-right: 1em;
+  margin-bottom: 3px;
+}
+
+fieldset {
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+fieldset input,
+fieldset select {
+  border: 1px solid var(--color-lightgray);
+  border-radius: 2px;
+  padding: 6px;
+}
+
+.buttons {
+  padding: 1.6vh 0;
+}
+
+.buttons button {
+  color: var(--color-white);
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 0 5px;
+}
+
+.buttons button:first-of-type {
+  background-color: var(--color-steelblue);
+}
+
+.buttons button:last-of-type {
+  background-color: var(--color-sandybrown);
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .filter h1 {
+    text-align: center;
+  }
+
+  .filter form {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  fieldset {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttons {
+    align-items: flex-end;
+    padding: 10px;
+  }
+}

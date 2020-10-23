@@ -1,0 +1,90 @@
+.details {
+  font-family: var(--font-family-tertiary);
+  margin: 0 auto;
+}
+
+.details h1,
+h2 {
+  color: var(--color-sienna);
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 20px 0 10px;
+}
+
+.image {
+  margin: 20px;
+}
+
+.image figure figcaption {
+  font-weight: bolder;
+  padding: 2vh 0;
+}
+
+.image button {
+  background-color: var(--color-steelblue);
+  border: 0;
+  padding: 6px 10px;
+  margin: 5px 0;
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+th {
+  text-transform: uppercase;
+  color: var(--color-salmon);
+  font-weight: 550;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 2%;
+}
+
+td {
+  color: var(--color-steelblue);
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.contacts {
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+.contacts span {
+  margin-right: 10px;
+}
+
+.contacts i {
+  color: var(--color-steelblue);
+}
+
+iframe {
+  border: 0;
+}
+
+.about-dest {
+  padding: 0 20px;
+}
+
+.about-dest p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 1024px) {
+  .image,
+  .about-dest {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

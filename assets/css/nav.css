@@ -1,0 +1,66 @@
+.nav {
+  font-weight: 600;
+  flex-direction: column;
+  height: 15vh;
+  background: var(--color-indianred);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.logo {
+  height: 50%;
+}
+
+.logo i,
+.logo span {
+  font-size: 2.5rem;
+}
+
+.menu {
+  height: 50%;
+}
+
+.menu-links {
+  height: 100%;
+}
+
+.menu-links li {
+  padding: 0 4%;
+}
+
+.menu-links li span {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+  }
+
+  .logo {
+    padding-left: 25px;
+  }
+
+  .menu {
+    justify-content: flex-end;
+    height: auto;
+  }
+
+  .menu-links {
+    justify-content: flex-end;
+  }
+
+  .menu-links li {
+    padding: 0 2%;
+  }
+
+  .menu-links li span {
+    display: block;
+    padding-left: 0.3em;
+    text-transform: uppercase;
+  }
+}

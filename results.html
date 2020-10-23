@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Search results</title>
+</head>
+
+<body>
+    <nav class="nav display-flex">
+        <div class="logo display-flex flex-center">
+            <a href="./index.html">
+                <i class="fa fa-paw logo-icon"></i>
+            </a>
+            <a href="./index.html">
+                <span class="site-name">jivinjari</span>
+            </a>
+        </div>
+
+        <div class="menu display-flex flex-fit">
+            <ul class="menu-links display-flex flex-center flex-fit">
+                <li class="display-flex flex-center">
+                    <a href="./results.html">
+                        <i class="fa fa-search menu-icon"></i>
+                    </a>
+                    <a href="./results.html">
+                        <span>destinations</span>
+                    </a>
+                </li>
+                <li class="display-flex flex-center">
+                    <a href="#">
+                        <i class="fa fa-user menu-icon"></i>
+                    </a>
+                    <a href="#">
+                        <span>about</span>
+                    </a>
+                </li>
+                <li class="display-flex flex-center">
+                    <a href="#">
+                        <i class="fa fa-rss menu-icon"></i>
+                    </a>
+                    <a href="#">
+                        <span>blog</span>
+                    </a>
+                </li>
+                <li class="display-flex flex-center">
+                    <a href="#">
+                        <i class="fa fa-bars menu-icon"></i>
+                    </a>
+                    <a href="#">
+                        <span>more</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="filter display-flex">
+            <h1>
+                Filter by Name of Town, Destination Category or Attraction Type:
+            </h1>
+            <form action="#" class="display-flex">
+                <fieldset class="display-flex">
+                    <label for="town">Name of Town:</label>
+                    <input type="text" name="town" id="town" placeholder="Enter name of town/city">
+                </fieldset>
+                <fieldset class="display-flex">
+                    <label for="destination-category">Category:</label>
+                    <select id="destination-category" name="destination-category">
+                        <option value="adventure-tourism">Adventure Tourism</option>
+                        <option value="ecotourism">Ecotourism</option>
+                        <option value="sports-tourism">Sports Tourism</option>
+                        <option value="agritourism">Agritourism</option>
+                        <option value="confrence-tourism">Confrence Tourism</option>
+                        <option value="cultural-tourism">Cultural Tourism</option>
+                        <option value="mountain-climbing">Mountain Climbing</option>
+                        <option value="golfing">Golfing</option>
+                        <option value="cruse-tourism">Cruse Tourism</option>
+                    </select>
+                </fieldset>
+                <fieldset class="display-flex">
+                    <label for="attraction-type">Type:</label>
+                    <select id="attraction-type" name="attraction-type">
+                        <option value="beaches">Beaches</option>
+                        <option value="lakes">Lakes</option>
+                        <option value="landmarks">Landmarks</option>
+                        <option value="museums">Museums</option>
+                        <option value="protected">Protected Areas</option>
+                        <option value="buildings">Buildings and Structures</option>
+                        <option value="zoos">Zoos</option>
+                        <option value="events">Entertainment and Events</option>
+                    </select>
+                </fieldset>
+                <div class="buttons display-flex">
+                    <button type="submit">Search</button>
+                    <button type="reset"><i class="fas fa-edit"></i>&nbsp;&nbsp;clear filter</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="results display-flex">
+            <h2 class="d-none">Tourism Destinations in Kenya</h2>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/mara.jpg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Maasai Mara National Park</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Kenyan preserve known for big cats, elephants, wildebeest migration & Maasai villages.
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/mombasa.jpeg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Mombasa</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Safaris, beaches, maasai, and casinos
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/ol-pejeta.jpg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Ol Pejeta Conservancy</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Animal preserve with game drives
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/kisumu.jpg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Kisumu</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Kenyan port city on Lake Victoria, known for the Kisumu Impala Sanctuay &amp; Kisumu Meseum.
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/buffalo-springs.jpg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Buffalo Springs National Reserve</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Sceinic reserve fo safari wildlife views.
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/manda-island.jpg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Manda Island</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Ruins, upscale lodging &amp; beaches.
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/kilifi.jpg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Kilifi</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Kenyan town on the Indian Ocean, known for Bofa Beach, coral reefs &amp; ancient Mnarani Ruins.
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+            <article class="card">
+                <header class="card-header">
+                    <img src="./assets/images/mount-kenya.jpeg" alt="maasai-mara-reserve" class="full-width">
+                    <h3 class="full-width">Mount Kenya National Park</h3>
+                </header>
+                <div class="card-body">
+                    <p class="card-text">
+                        Major mountain, elephants &amp; campsites.
+                    </p>
+                </div>
+                <button type="button" class="card-button full-width" onclick="window.location.href='./detail.html';">VIEW
+                    DETAILS</button>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-top">
+            <ul class="footer-links display-flex flex-center">
+                <li class="f-links-container full-width flex-fit">
+                    <ul class="f-links-left display-flex flex-center">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">search</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">advertise</a></li>
+                    </ul>
+                </li>
+                <li class="f-logo display-flex flex-center"><i class="fa fa-paw logo-icon"></i></li>
+                <li class="f-links-container full-width flex-fit">
+                    <ul class="f-links-right display-flex flex-center">
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">google+</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-middle display-flex">
+            <div class="subscribe display-flex">
+                <h3>subscribe</h3>
+                <form action="#" class="display-flex">
+                    <input type="email" id="email" name="email" placeholder="you@example.com" />
+                    <button type="submit">send</button>
+                </form>
+            </div>
+
+            <div class="contact display-flex">
+                <h3>contact</h3>
+                <p>To get all your queries answered:</p>
+                <span>info@jivinjari.com</span>
+            </div>
+
+            <div class="about display-flex">
+                <h3>about</h3>
+                <p>
+                    Jivinjari is an online directory for major and best of the best
+                    tourism destinations in Kenya. This platform will help you get
+                    booked to the best hotels available and ensure you tour the best
+                    destinations too.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom display-flex flex-center">
+            <div class="footer-social display-flex flex-center">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="footer-copyright">
+                &copy; JIVINJARI 2020. ALL RIGHTS RESERVED. DESIGNED BY: Mathew
+                Njunguna &amp; Sam Achola | DEVELOPED BY: Lameck Otieno
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

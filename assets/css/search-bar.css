@@ -1,0 +1,77 @@
+.search-bar {
+  background: linear-gradient(var(--color-black), transparent, var(--color-black)), url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  font-family: var(--font-family-tertiary);
+  height: 85vh;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+}
+
+.container h1 {
+  color: var(--color-white);
+  font-size: 1.6rem;
+}
+
+.search-form {
+  background: var(--color-whitesmoke);
+  border-radius: 8px;
+  margin: 2vw;
+  padding: 4vw;
+}
+
+.search-form label {
+  color: var(--color-darkslategray);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.input {
+  border: 0;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.2vw 0 1.2vw 1.2vw;
+  margin: 5px 0;
+}
+
+.btn-form {
+  background-color: var(--color-indianred);
+  border: 0;
+  border-radius: 2px;
+  color: var(--color-white);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.2vw 0;
+}
+
+.btn-instruction {
+  background-color: var(--color-lightgray);
+  border: 0;
+  border-radius: 2px;
+  color: var(--color-darkslategray);
+  font-weight: 550;
+  font-size: 1.3rem;
+  margin-top: 10vh;
+  padding: 1vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-form form {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-form {
+    width: 10vw;
+  }
+
+  .container {
+    width: 65%;
+  }
+}

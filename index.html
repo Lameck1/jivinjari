@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Jivinjari</title>
+</head>
+
+<body>
+    <nav class="nav display-flex">
+        <div class="logo display-flex flex-center">
+            <a href="./index.html">
+                <i class="fa fa-paw logo-icon"></i>
+            </a>
+            <a href="./index.html">
+                <span class="site-name">jivinjari</span>
+            </a>           
+        </div>
+
+        <div class="menu display-flex flex-fit">
+            <ul class="menu-links display-flex flex-center flex-fit">
+                <li class="display-flex flex-center">
+                    <a href="./results.html">
+                        <i class="fa fa-search menu-icon"></i>
+                    </a>
+                    <a href="./results.html">
+                        <span>destinations</span>
+                    </a>
+                </li>
+                <li class="display-flex flex-center">
+                    <a href="#">
+                        <i class="fa fa-user menu-icon"></i>
+                    </a>
+                    <a href="#">
+                        <span>about</span>
+                    </a>
+                </li>
+                <li class="display-flex flex-center">
+                    <a href="#">
+                        <i class="fa fa-rss menu-icon"></i>
+                    </a>
+                    <a href="#">
+                        <span>blog</span>
+                    </a>
+                </li>
+                <li class="display-flex flex-center">
+                    <a href="#">
+                        <i class="fa fa-bars menu-icon"></i>
+                    </a>
+                    <a href="#">
+                        <span>more</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="search-bar display-flex">
+            <div class="container display-flex">
+                <header>
+                    <h1 class="uppercase text-center">
+                        jivinjari: a one stop directory for tourism destinations in kenya.
+                    </h1>
+                </header>
+                <div class="search-form  full-width">
+                    <label class="label">search by keyword:</label>
+                    <form action="./results.html" class=" full-width">
+                        <input class="input  full-width" type="text" id="keyword" name="keyword" />
+                        <button class="btn-form  full-width" type="submit">search</button>
+                    </form>
+                </div>
+
+                <button onclick="window.location.href='#instructions';" class="btn-instruction" type="button">
+                    How it works
+                </button>
+            </div>
+        </section>
+
+        <section class="usage">
+            <header>
+                <h3 id="instructions">to "jivinjari", follow these simple steps</h3>
+            </header>
+            <div class="steps">
+                <article class="step display-flex">
+                    <div class="step-icon">
+                        <i class="fas fa-search-location"></i>
+                    </div>
+                    <h3>1- search:</h3>
+                    <p>
+                        The <em>jivinjari</em> homepage having loaded, use the seach-bar
+                        above to enter a type of tourism destinations that your heart is
+                        after. Click on the search icon next to it. This will give you a a
+                        list of search results as per search category. To view all
+                        available options, just click on the search icon without entering
+                        any text.
+                    </p>
+                </article>
+
+                <article class="step display-flex">
+                    <div class="step-icon">
+                        <i class="fas fa-map-marked"></i>
+                    </div>
+                    <h3>2- locate:</h3>
+                    <p>
+                        From the selected search result in step one, you will be
+                        redirected to a detail page which has an embeded google map from
+                        which you can get location specifics and decide whether that will
+                        be a good fit for your travel needs.
+                    </p>
+                </article>
+
+                <article class="step display-flex">
+                    <div class="step-icon">
+                        <i class="fas fa-address-card"></i>
+                    </div>
+                    <h3>3- book:</h3>
+                    <p>
+                        While on the detail page, you will see a "BOOK "button, use it if
+                        you would wish to do booking online with us. You can also do
+                        booking by dialing the number present on the detail page. The type
+                        of booking you will do is with travel agency that will take care
+                        of your travel and boarding needs.
+                    </p>
+                </article>
+
+                <article class="step display-flex">
+                    <div class="step-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h3>4- jivinjari(enjoy):</h3>
+                    <p>
+                        Now that all your travel logistics is sorted out, sit back, relax
+                        and enjoy when your d-day finally comes.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <article class="info display-flex flex-center">
+            <div class="info-detail display-flex flex-center">
+                <h5>
+                    Over 1000 tourism destinations and travel agencies registered with
+                    us
+                </h5>
+                <p>
+                    Use our filtered search to find that tourism destination that would
+                    be most appealing to you.
+                </p>
+                <button type="button">Find a destination</button>
+            </div>
+
+            <img src="./assets/images/cheetah.jpg" alt="" class="info-img" />
+        </article>
+
+        <article class="info display-flex flex-center">
+            <div class="info-detail display-flex flex-center">
+                <h5>Avoid too much hustle</h5>
+                <p>
+                    Jivinjari will get you booked with reputable travel agencies. We
+                    also ensure accomodation availability before your travelling is
+                    booked.
+                </p>
+                <button type="button">Get booked</button>
+            </div>
+
+            <img src="./assets/images/hotel.jpg" alt="" class="info-img" />
+        </article>
+
+        <article class="info display-flex flex-center">
+            <div class="info-detail display-flex">
+                <h5>Save money</h5>
+                <p>
+                    It makes much more sense booking with us. Take advantage of
+                    discounts we get while booking you in with our travel and
+                    accomodation parteners.
+                </p>
+            </div>
+
+            <img src="./assets/images/discount.png" alt="" class="info-img" />
+        </article>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <ul class="footer-links display-flex flex-center">
+                <li class="f-links-container full-width flex-fit">
+                    <ul class="f-links-left display-flex flex-center">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">search</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">advertise</a></li>
+                    </ul>
+                </li>
+                <li class="f-logo display-flex flex-center"><i class="fa fa-paw logo-icon"></i></li>
+                <li class="f-links-container full-width flex-fit">
+                    <ul class="f-links-right display-flex flex-center">
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">google+</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-middle display-flex">
+            <div class="subscribe display-flex">
+                <h3>subscribe</h3>
+                <form action="#" class="display-flex">
+                    <input type="email" id="email" name="email" placeholder="you@example.com" />
+                    <button type="submit">send</button>
+                </form>
+            </div>
+
+            <div class="contact display-flex">
+                <h3>contact</h3>
+                <p>To get all your queries answered:</p>
+                <span>info@jivinjari.com</span>
+            </div>
+
+            <div class="about display-flex">
+                <h3>about</h3>
+                <p>
+                    Jivinjari is an online directory for major and best of the best
+                    tourism destinations in Kenya. This platform will help you get
+                    booked to the best hotels available and ensure you tour the best
+                    destinations too.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom display-flex flex-center">
+            <div class="footer-social display-flex flex-center">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="footer-copyright">
+                &copy; JIVINJARI 2020. ALL RIGHTS RESERVED. DESIGNED BY: Mathew
+                Njunguna &amp; Sam Achola | DEVELOPED BY: Lameck Otieno
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
